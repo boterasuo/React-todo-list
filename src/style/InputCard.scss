@@ -1,0 +1,37 @@
+.input-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  h2 {
+    margin-bottom: 1rem;
+  }
+  .required {
+    margin: 0.3rem 0;
+    position: relative;
+    padding-left: 1rem;
+    &::after {
+      display: block;
+      padding-top: 3px;
+      content: '＊';
+      color: red;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+  .form-control {
+    border-radius: 0;
+    transition: 0.4s;
+    &:focus {
+      box-shadow: none;
+      border-color: #aaa;
+    }
+    &.invalid {
+      border-color: red;
+    }
+  }
+  .errMsg {
+    height: 1rem;
+    color: red;
+  }
+}

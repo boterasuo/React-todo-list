@@ -1,0 +1,11 @@
+.toggle-btn-group {
+  margin: 1rem 0;
+  width: 100%;
+  button {
+    border: 1px solid #ccc;
+    border-radius: 0;
+  }
+  .active {
+    background: #ccc;
+  }
+}
