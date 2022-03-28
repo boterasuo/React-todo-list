@@ -4,7 +4,7 @@
 
 ![Alt Text](https://i.imgur.com/EHpZuTk.gif)
 
-### components
+### /src/components
 
 拆分各元件
 
@@ -16,15 +16,15 @@
 6. ToDoList: 代辦事項列表
 7. ToggleBtn: 切換 未完成 / 已完成 按鈕
 
-### filter
+### /src/filter
 
 已完成事項列表的時間格式轉換函式
 
-### style
+### /src/style
 
 所有 component 各別的樣式 scss
 (共用樣式在 src/index.scss)
 
-### 未完成功能
+### 待完成功能
 
-未完成 / 已完成頁面切換之動態效果 (預計使用 CSSTransition)
+頁面切換之動態效果 (預計使用 CSSTransition)
