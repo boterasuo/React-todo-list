@@ -1,5 +1,9 @@
 # React-todo-list
 
+功能 demo [點擊連結](https://codesandbox.io/s/keen-glade-vkzi6o?file=/src/components/InputCard.js)
+
+![Alt Text](https://i.imgur.com/EHpZuTk.gif)
+
 ### components
 
 拆分各元件
